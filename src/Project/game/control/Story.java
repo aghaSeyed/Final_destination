@@ -1,6 +1,5 @@
-package game.control;
-import game.scenario.*;
-
+package Project.game.control;
+import Project.game.senarios.*;
 import java.util.Scanner;
 
 public class Story {
@@ -21,11 +20,11 @@ public class Story {
 
 
             if (current instanceof Room0)
-            Room0.descript_flag = false;
+            Room0.first_view = false;
             else if (current instanceof RoomA)
-            RoomA.descript_flag = false;
+            RoomA.first_view = false;
             else if (current instanceof RoomD)
-                RoomD.descript_flag = false;
+                RoomD.first_view = false;
 
 
         }
