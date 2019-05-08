@@ -32,7 +32,7 @@ public class Room0 implements Base {
             print("11*11=4");
             print("22*22=16");
             print("33*33=18");
-            print("99*99=... ");
+            print("99*99=...  ");
             System.out.println("Enter your answer");
             String ans = input.next();
             if (ans.equals("18")) {
